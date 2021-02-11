@@ -8,7 +8,7 @@ std::ifstream ifs;
 
 ifs.open ("test.txt");
 
-if (ifs.is_open()) {std::cout << "The file was properly opened\n\n";}
+if (ifs.is_open()) {std::cout << "I'm in!\n\n";}
 else {std::cout << "Error opening file\n\n";}
 
 char c;
